@@ -179,7 +179,7 @@ const kirimBalasan = async () => {
     let id = document.getElementById('idbalasan').value;
 
     if (token.length == 0) {
-        alert('Terdapat kesalahan, token kosong !');
+        //alert('Terdapat kesalahan, token kosong !');
         window.location.reload();
         return;
     }
