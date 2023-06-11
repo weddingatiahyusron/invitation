@@ -757,7 +757,7 @@ const kirimBalasan = async () => {
 
             if (res.error.length != 0) {
                 if (res.error[0] == 'Expired token') {
-                    alert('Terdapat kesalahan, token expired !');
+                    //alert('Terdapat kesalahan, token expired !');
                     window.location.reload();
                     return;
                 }
