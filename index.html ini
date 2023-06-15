@@ -199,9 +199,7 @@
                 <div class="card-body border rounded-4 shadow p-3">
                     <h1 class="font-estetik text-center py-3" data-aos="fade-down" data-aos-duration="1500" style="font-size: 2rem;">Galeri</h1>
 
-        
-
-                    <div id="carouselExampleIndicators" data-aos="fade-up" data-aos-duration="1500" class="carousel slide mt-4" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" data-aos="fade-up" data-aos-duration="1500" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -209,7 +207,7 @@
                         </div>
 
                         <div class="carousel-inner rounded-4">
-                            <div class="carousel-item">
+                            <div class="carousel-item active">
                                 <img src="b.jpg" class="d-block w-100">
                             </div>
                             <div class="carousel-item">
@@ -217,7 +215,7 @@
                             </div>
                             <div class="carousel-item">
                                 <img src="y.jpg" class="d-block w-100">
-                            </div
+                            </div>
                         </div>
 
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -230,6 +228,9 @@
                         </button>
 
                     </div>
+
+                    
+                    
                 </div>
             </div>
         </section>
