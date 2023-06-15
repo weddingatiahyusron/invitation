@@ -199,35 +199,7 @@
                 <div class="card-body border rounded-4 shadow p-3">
                     <h1 class="font-estetik text-center py-3" data-aos="fade-down" data-aos-duration="1500" style="font-size: 2rem;">Galeri</h1>
 
-                    <div id="carouselExampleIndicators" data-aos="fade-up" data-aos-duration="1500" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-
-                        <div class="carousel-inner rounded-4">
-                            <div class="carousel-item active">
-                                <img src="1.jpg" class="d-block w-100">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="2.jpg" class="d-block w-100">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="3.jpg" class="d-block w-100">
-                            </div>
-                        </div>
-
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-
-                    </div>
+        
 
                     <div id="carousel2" data-aos="fade-up" data-aos-duration="1500" class="carousel slide mt-4" data-bs-ride="carousel">
                         <div class="carousel-indicators">
@@ -537,7 +509,7 @@ const balasan = async (button) => {
     let token = localStorage.getItem('token') ?? '';
 
     if (token.length == 0) {
-        alert('Terdapat kesalahan, token kosong !');
+        //alert('Terdapat kesalahan, token kosong !');
         window.location.reload();
         return;
     }
@@ -580,7 +552,7 @@ const balasan = async (button) => {
 
             if (res.error.length != 0) {
                 if (res.error[0] == 'Expired token') {
-                    alert('Terdapat kesalahan, token expired !');
+                    //alert('Terdapat kesalahan, token expired !');
                     window.location.reload();
                     return;
                 }
@@ -819,7 +791,7 @@ const ucapan = async () => {
     let token = localStorage.getItem('token') ?? '';
 
     if (token.length == 0) {
-        alert('Terdapat kesalahan, token kosong !');
+       // alert('Terdapat kesalahan, token kosong !');
         window.location.reload();
         return;
     }
@@ -848,7 +820,7 @@ const ucapan = async () => {
 
             if (res.error.length != 0) {
                 if (res.error[0] == 'Expired token') {
-                    alert('Terdapat kesalahan, token expired !');
+                    //alert('Terdapat kesalahan, token expired !');
                     window.location.reload();
                     return;
                 }
@@ -904,7 +876,7 @@ const kirim = async () => {
     let token = localStorage.getItem('token') ?? '';
 
     if (token.length == 0) {
-        alert('Terdapat kesalahan, token kosong !');
+       // alert('Terdapat kesalahan, token kosong !');
         window.location.reload();
         return;
     }
@@ -957,7 +929,7 @@ const kirim = async () => {
 
             if (res.error.length != 0) {
                 if (res.error[0] == 'Expired token') {
-                    alert('Terdapat kesalahan, token expired !');
+                    //alert('Terdapat kesalahan, token expired !');
                     window.location.reload();
                     return;
                 }
