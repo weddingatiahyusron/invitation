@@ -111,7 +111,7 @@ const balasan = async (button) => {
     let token = localStorage.getItem('token') ?? '';
 
     if (token.length == 0) {
-        alert('Terdapat kesalahan, token kosong !');
+        //alert('Terdapat kesalahan, token kosong !');
         window.location.reload();
         return;
     }
@@ -154,7 +154,7 @@ const balasan = async (button) => {
 
             if (res.error.length != 0) {
                 if (res.error[0] == 'Expired token') {
-                    alert('Terdapat kesalahan, token expired !');
+                    //alert('Terdapat kesalahan, token expired !');
                     window.location.reload();
                     return;
                 }
@@ -229,7 +229,7 @@ const kirimBalasan = async () => {
 
             if (res.error.length != 0) {
                 if (res.error[0] == 'Expired token') {
-                    alert('Terdapat kesalahan, token expired !');
+                    //alert('Terdapat kesalahan, token expired !');
                     window.location.reload();
                     return;
                 }
@@ -393,7 +393,7 @@ const ucapan = async () => {
     let token = localStorage.getItem('token') ?? '';
 
     if (token.length == 0) {
-        alert('Terdapat kesalahan, token kosong !');
+        //alert('Terdapat kesalahan, token kosong !');
         window.location.reload();
         return;
     }
@@ -422,7 +422,7 @@ const ucapan = async () => {
 
             if (res.error.length != 0) {
                 if (res.error[0] == 'Expired token') {
-                    alert('Terdapat kesalahan, token expired !');
+                   // alert('Terdapat kesalahan, token expired !');
                     window.location.reload();
                     return;
                 }
@@ -478,7 +478,7 @@ const kirim = async () => {
     let token = localStorage.getItem('token') ?? '';
 
     if (token.length == 0) {
-        alert('Terdapat kesalahan, token kosong !');
+     //   alert('Terdapat kesalahan, token kosong !');
         window.location.reload();
         return;
     }
@@ -531,7 +531,7 @@ const kirim = async () => {
 
             if (res.error.length != 0) {
                 if (res.error[0] == 'Expired token') {
-                    alert('Terdapat kesalahan, token expired !');
+                   // alert('Terdapat kesalahan, token expired !');
                     window.location.reload();
                     return;
                 }
